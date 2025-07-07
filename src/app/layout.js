@@ -42,7 +42,7 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className={` font-sans antialiased ${openSans.variable} ${poppins.variable}`}>
+      <body>
         {children}
       </body>
     </html>

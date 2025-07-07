@@ -18,7 +18,6 @@ const nextConfig = {
   },
   experimental: {
     optimizeCss: true,
-    legacyBrowsers: false,
     modern: true,
   },
   reactStrictMode: true,

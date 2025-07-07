@@ -7,17 +7,18 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo + Brand */}
         <div className="flex items-center gap-2">
-          <div className="w-14 h-14 relative">
+          <div className="w-14 h-14 relative aspect-square">
           <Image
              src="/fabric.avif"
              alt="Amrita Global Enterprises Logo"
               fetchPriority="high"
              loading="eager"
-             priority={true} 
+             priority 
              sizes="56px"
-             width={400}
-             height={600}
-             className="w-full h-full object-contain"
+            fill
+            //  width={400}
+            //  height={600}
+             className="w-full h-full object-cover"
              />
           </div>
 

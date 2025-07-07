@@ -10,15 +10,13 @@ export default function Hero() {
         <Image
             src="/fabric.avif" // ✅ Ensure it's in /public/
             alt="Woman wearing premium georgette fabric"
-  
-            priority
-           
             className="object-cover"
             fill
+            // priority
             sizes="(max-width: 768px) 100vw, (max-width: 1268px) 80vw, 1268px"
             placeholder="empty"
             fetchPriority='high'
-            loading='eager'
+            loading='lazy'
             />
             <div className=" inset-0 bg-black opacity-30" aria-hidden="true"></div>
             </div>

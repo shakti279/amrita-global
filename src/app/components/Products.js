@@ -32,9 +32,9 @@ export default function Products() {
                     alt="White Georgette Fabric - Lightweight and soft for elegant outfits"
                     width={600}
                    height={400}
-                    loading="eager"
+                    loading="lazy"
                     className="object-cover"
-                    priority={true}  
+              
                     sizes="(max-width: 768px) 100vw, (max-width: 1268px) 50vw, 33vw"
                   />
                 </figure>
@@ -57,8 +57,8 @@ export default function Products() {
                     alt="Purple Georgette Fabric - Vibrant and bold for statement designs"
                         width={600}
             height={400}
-                    loading="eager"
-                    priority={true} 
+                    loading="lazy"
+                  
                     className="object-cover"
                     sizes="(max-width: 768px) 100vw, (max-width: 1268px) 50vw, 33vw"
                   />
@@ -83,8 +83,8 @@ export default function Products() {
                     alt="Gold Georgette Fabric - Shimmering fabric for festive and special occasions"
                          width={600}
             height={400}
-                    loading="eager"
-                    priority={true} 
+                    loading="lazy"
+                  
                     className="object-cover"
                     sizes="(max-width: 768px) 100vw, (max-width: 1268px) 50vw, 33vw"
                   />
@@ -111,8 +111,8 @@ export default function Products() {
                 alt="White Georgette Fabric - Lightweight and soft for elegant outfits"
                 width={600}
                 height={400}
-                loading="eager"
-                priority={true}  
+                loading="lazy"
+             
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, (max-width: 1268px) 50vw, 33vw"
               />
@@ -130,8 +130,8 @@ export default function Products() {
                 src="/fabric.avif"
                 alt="Purple Georgette Fabric - Vibrant and bold for statement designs"
                 fill
-                loading="eager"
-                priority
+                loading="lazy"
+            
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, (max-width: 1268px) 50vw, 33vw"
               />
@@ -149,9 +149,8 @@ export default function Products() {
                 src="/fabric.avif"
                 alt="Gold Georgette Fabric - Shimmering and luxurious for weddings and parties"
                 fill
-                loading="eager"
+                loading="lazy"
                 className="object-cover"
-                priority={true} 
                 sizes="(max-width: 768px) 100vw, (max-width: 1268px) 50vw, 33vw"
               />
             </figure>

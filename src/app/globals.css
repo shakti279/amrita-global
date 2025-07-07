@@ -1,15 +1,12 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --background: #f8f5f2;
+  --foreground: #3d2c1e;
+  --primary: #b89c7d;
+  --primary-dark: #8c735a;
+  --secondary: #e5d8c3;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,5 +19,65 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-open-sans), Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .bg-primary {
+    background-color: #ffffff;
+  }
+  .bg-white {
+    background-color: #ffffff;
+  }
+  .bg-primary-dark {
+    background-color: #8c735a;
+  }
+  .text-primary {
+    color: #000000;
+    font-family: var(--font-open-sans);
+  }
+  .bg-secondary {
+    background-color: #e5d8c3;
+  }
+  .text-whitee {
+    color: #ffffff;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  }
+  .text-secondary {
+    color: #4a4646;
+    font-family: var(--font-poppins);
+  }
+  .btn {
+    display: inline-block;
+    background-color: #b89c7d;
+    color: #fff;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    transition: background-color 0.2s;
+  }
+  .btn:hover {
+    background-color: #8c735a;
+  }
+  .section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .card {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    padding: 1.5rem;
+  }
+  .pop {
+    font-family: var(--font-poppins);
+  }
+  .san {
+    font-family: var(--font-open-sans);
+  }
+
 }

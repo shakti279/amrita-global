@@ -1,0 +1,3 @@
+# Example public/robots.txt
+User-agent: *
+Disallow:

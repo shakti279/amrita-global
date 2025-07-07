@@ -39,9 +39,9 @@ body {
   .bg-secondary {
     background-color: #e5d8c3;
   }
-  .text-whitee {
+  .text-whitee{
     color: #ffffff;
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: var(--font-open-sans);
   }
   .text-secondary {
     color: #4a4646;

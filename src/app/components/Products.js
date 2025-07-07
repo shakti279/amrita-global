@@ -8,7 +8,6 @@ export default function Products() {
       id="product"
       className="section bg-primary py-12"
       aria-labelledby="products-heading"
-      role="region"
     >
       <div className="max-w-8xl mx-auto px-4">
         <h2
@@ -18,7 +17,7 @@ export default function Products() {
           Our Products
         </h2>
         <p className=" text-center mb-10 pop text-[14px] text-secondary">
-          Premium georgette fabrics you'll love.
+          Premium georgette fabrics you&apos;ll love.
         </p>
 
         {/* === MOBILE CAROUSEL === */}

@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <header className="relative py-16 mt-14" role="banner">
       {/* Background Image with LCP priority */}
-      <div className="absolute inset-0 ">
+      <div className=" inset-0 ">
         <Image
             src="/fabric.avif" // ✅ Ensure it's in /public/
             alt="Woman wearing premium georgette fabric"
@@ -20,7 +20,7 @@ export default function Hero() {
             fetchPriority='high'
             loading='eager'
             />
-            <div className="absolute inset-0 bg-black opacity-30" aria-hidden="true"></div>
+            <div className=" inset-0 bg-black opacity-30" aria-hidden="true"></div>
             </div>
 
             <div className="relative max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-10 px-6">

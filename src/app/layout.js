@@ -15,9 +15,12 @@ const poppins = Poppins({
   subsets: ['latin'],
   weight:["400","500"],
   display: 'swap',
-   preload: true,
+  preload: true,
 });
-
+// Metadata for the page
+// This metadata is used for SEO and social media sharing
+// It includes the title, keywords, description, and Open Graph tags        
+  
 export const metadata = {
   title: 'Amrita Global Enterprises',
   keywords: 'georgette fabric, manufacturers, suppliers, wholesale, export',
